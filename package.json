@@ -1,0 +1,16 @@
+{
+  "name": "smart-light-disco",
+  "version": "1.0.0",
+  "description": "Party mode (or maybe disco mode) for smart lights. Cycle through various colors on an interval",
+  "main": "bulb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Justin Rudio (jrudio)",
+  "license": "ISC",
+  "dependencies": {
+    "smart-light-disco": "^1.0.0",
+    "tplink-smarthome-api": "^3.1.0"
+  }
+}
