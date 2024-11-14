@@ -65,7 +65,7 @@ class BulbWrapper {
   setColor(color) {
     if (!color) throw new Error("Invalid bulb color");
 
-    const defaults = { brightness: 0 };
+    const defaults = { brightness: 10 };
     const lightSettings = Object.assign({}, defaults, color);
     lightSettings.color_temp = lightSettings.colorTemp;
 
